@@ -2,7 +2,7 @@
 # Maintainer: Michael Sasser <Michael@MichaelSasser.de>
 
 pkgname=st-lukesmith-git
-pkgver=0.8.1.r1019.ec8887f
+pkgver=0.8.1.r1037.c510795
 pkgrel=1
 pkgdesc="Luke Smith's patched version of Suckless Terminal"
 arch=('i686' 'x86_64')
