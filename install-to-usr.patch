@@ -1,13 +1,13 @@
 diff --git i/config.mk w/config.mk
-index 3b00d7e..0b04d83 100644
+index eba98c3..dc12bf3 100644
 --- i/config.mk
 +++ w/config.mk
-@@ -4,7 +4,7 @@ VERSION = 0.8.1
+@@ -4,7 +4,7 @@ VERSION = 0.8.2
  # Customize below to fit your system
  
  # paths
--PREFIX = /usr/local
-+PREFIX = /usr
+-PREFIX ?= /usr/local
++PREFIX ?= /usr/
  MANPREFIX = $(PREFIX)/share/man
  
  X11INC = /usr/X11R6/include
